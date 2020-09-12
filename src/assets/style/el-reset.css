@@ -1,0 +1,56 @@
+#app, .home, .el-container {
+    height: 100%;
+}
+
+.main .el-form .el-form-item__label {
+    color: rgba(255, 255, 255, 0.9);
+    width: 80px !important;
+    padding: 0 !important;
+}
+
+.main .el-form .el-form-item__error {
+    margin-left: 30px !important;
+}
+
+.main .el-form .el-form-item__content {
+    margin-right: 40px
+}
+
+.main .el-form .el-form-item__content .el-input input {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+/* 取消背景的relative */
+
+.row-bg {
+    position: unset;
+}
+
+.el-avatar {
+    background-color:purple;
+}
+/* 解决左侧菜单展开收入的时候，显示问题（通用） */
+
+.el-menu--collapse .el-submenu__title span {
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+    display: inline-block;
+}
+
+.el-menu--collapse .el-menu-item .el-submenu__icon-arrow, .el-menu--collapse .el-submenu .el-submenu__title .el-submenu__icon-arrow {
+    display: none;
+}
+
+.el-menu-item-group .el-menu-item {
+    padding: 0 0 0 30px;
+}
+
+.el-menu-item-group .el-menu-item-group__title {
+    padding: 0
+}
+
+#app .home .el-container .el-main {
+    line-height: 0;
+}
